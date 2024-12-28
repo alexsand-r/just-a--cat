@@ -97,7 +97,7 @@ body {
     font-family: sans-serif;
     font-size: 25px;
     color: #000;
-
+    background-color: #f9f9f9;
 
 }
 
@@ -111,7 +111,7 @@ body {
     /*  ----  делаем флекс  */
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .page {
@@ -120,11 +120,75 @@ body {
 }
 
 [class*="__container"] {
-    max-width: 1087px;
+    max-width: 700px;
     /*  добавляем 30 пикселей  два по 15 к основному размеру из за пад 15 рх*/
     margin: 0 auto;
     padding: 0 15px;
     /* -- добавляем 15 пик чтобы не прилипал контент - адаптация  */
 }
 
-/* --------------------------- */
+/* -------------- header------------- */
+.header {}
+
+.header__container {
+    padding: 25px 0;
+}
+
+.header__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+/* --------------- main block --------------- */
+.page__main-block {}
+
+.main-block {}
+
+.main-block__container {}
+
+.main-block__body {
+
+}
+
+.main-block__pic {
+    position: relative;
+    padding-bottom: 65%;
+
+}
+
+.main-block__pic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+   box-shadow: 5px 5px 15px #b1aeae;
+   border-radius: 10px;
+}
+
+/* ----------- btn ----------- */
+.page__btn {
+    padding-top: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn button {
+    font-size: 16px;
+    line-height: 1;
+    background-color: #c4c0c0;
+    padding: 5px 15px 3px;
+    transition: background-color 0.3s ease 0s;
+    text-transform: uppercase;
+}
+.btn button:hover {
+    background-color: #b1aeae;
+}
