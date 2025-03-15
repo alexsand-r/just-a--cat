@@ -1,4 +1,8 @@
 # 🐱 Random Cat Image Loader
+<p align="center">
+  <img src="img/Screenshot_6.png" alt="Image 1" width="400" height="400">
+
+</p>
 
 This project fetches a random cat image from **The Cat API** and updates an `<img>` element on the webpage when a button is clicked.
 
