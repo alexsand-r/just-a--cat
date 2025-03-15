@@ -1,6 +1,6 @@
 # 🐱 Random Cat Image Loader
 <p align="center">
-  <img src="img/Screenshot_6.png" alt="Image 1" width="400" height="400">
+  <img src="img/Screenshot_6.png" alt="Image 1" width="400" height="300">
 
 </p>
 
