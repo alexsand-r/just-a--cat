@@ -14,12 +14,7 @@ This project fetches a random cat image from **The Cat API** and updates an `<im
 ✅ Uses **JavaScript Fetch API** to get data from The Cat API  
 ✅ Handles errors gracefully with an alert  
 
-## 🚀 How to Use
 
-1. **Clone the Repository**  
-
-   ```bash
-   git clone https://github.com/your-username/repository-name.git
 
 🛠️ Technologies Used
 JavaScript – For handling the logic and fetching data from the API.
